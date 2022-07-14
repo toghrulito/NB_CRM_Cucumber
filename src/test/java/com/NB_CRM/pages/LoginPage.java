@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+public class LoginPage extends BasePage{
 
     public LoginPage() {
         PageFactory.initElements(Driver.getDriver(),this);
@@ -21,7 +21,7 @@ public class LoginPage {
     @FindBy(className="login-btn")
     public WebElement loginButton;
 
-    public void Login(String username,String password){
+    public void login(String username,String password){
         usernameInput.sendKeys(username);
         passwordInput.sendKeys(password);
         loginButton.click();
