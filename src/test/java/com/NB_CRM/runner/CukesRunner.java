@@ -14,9 +14,10 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber-report.json"},
         features = "src/test/resources/features",
         glue = "com/NB_CRM/step_definitions",
-        dryRun = false,
-        tags = "@wip",
-        publish = true
+ ZibaM
+        dryRun =true,
+        tags = "@usZM"
+
 
 )
 public class CukesRunner {}
