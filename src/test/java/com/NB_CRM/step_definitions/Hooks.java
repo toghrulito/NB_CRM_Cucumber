@@ -12,9 +12,6 @@ public class Hooks  {
     @After
     public void tearDownScenario(Scenario scenario){
 
-
-
-
         if(scenario.isFailed()){
             byte[] screenShot= ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
 

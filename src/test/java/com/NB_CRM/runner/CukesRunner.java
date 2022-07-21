@@ -7,11 +7,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = "html:target/cucumber-report.html",
+        plugin = {"html:target/cucumber-report.html","json:target/cucumber-report.json"},
         features = "src/test/resources/features",
         glue = "com/NB_CRM/step_definitions",
         dryRun = false,
-        tags = "@helpdesk"
+        tags = "@US07"
 
 )
 
