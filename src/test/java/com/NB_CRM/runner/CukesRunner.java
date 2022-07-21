@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber-report.html",
         features = "src/test/resources/features",
         glue = "com/NB_CRM/step_definitions",
-        dryRun = false,
-        tags = "@helpdesk"
+        dryRun =true,
+        tags = "@usZM"
 
 )
 
