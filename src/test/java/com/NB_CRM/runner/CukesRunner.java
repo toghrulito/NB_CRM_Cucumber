@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+
         plugin = {
                 "pretty",
                 "html:target/cucumber-report.html",
@@ -16,6 +17,7 @@ import org.junit.runner.RunWith;
         glue = "com/NB_CRM/step_definitions",
         dryRun =true,
         tags = "@wip"
+toghrulj
 
 )
 
